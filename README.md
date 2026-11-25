@@ -1,6 +1,10 @@
 # NFA evidence tree
 
+**Live page: https://naturefinanceaccelerator.github.io/nfa-evidence-tree/**
+
 Display prototype for species evidence from airborne eDNA plus bioacoustics, shown as a tree of life for the Mellingen Äbereich pilot.
+
+![The evidence tree comparing the project area with the reference area, air eDNA plus bioacoustics](screenshot.png)
 
 > **Example data only.** Every species, detection value, flag, threshold on this page is invented to test the layout. No results from DNAir or Synature are shown.
 
@@ -23,7 +27,7 @@ The page answers one question for a site: which species does the evidence show, 
 | Switch | Options | What changes |
 |---|---|---|
 | View | Project area only | One dot per species. The start view. |
-| | Compare with reference area | Two dots per species. Blue band = project area, outer ring = reference area. |
+| | Compare with reference area | Two dots per species. Lilac band = project area, outer ring = reference area. |
 | | Compare with 2028 | Two dots per species with an arrow from baseline 2026/27 to 2028. |
 | Evidence | Air eDNA | Detections from the air sampler. The start view. |
 | | Bioacoustics | Detections from the acoustic recorder. Groups sound cannot cover turn pale. |
@@ -52,7 +56,8 @@ All thresholds are placeholders until replicate variance from real samples is av
 ## Files
 
 - `index.html` – the page, everything inline.
-- `snapshots/` – earlier stages, each a working page: single sampler, two rings, three views, bioacoustics.
+- `screenshot.png` – the picture above.
+- `snapshots/` – earlier stages, each a working page: single sampler, two rings, three views, bioacoustics, the version before the homepage colours.
 - The working copy lives in the Google Drive folder "NFA Evidence Tree". "Sync to GitHub.bat" in that folder mirrors it to this repo.
 - `NOTICE.md` – third-party material.
 
